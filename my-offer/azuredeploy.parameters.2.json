@@ -1,24 +1,21 @@
 {
   "location": {
-    "value": "centralus"
-  },
-  "plan": {
-    "value": "JBoss-EAP7.2-on-RHEL8.0-PAYG"
+    "value": "eastus"
   },
   "vmName": {
-    "value": "jbosseap-server1-payg-rhel8"
+    "value": "jbosseap-rhel77-byos-vm2"
   },
   "adminUsername": {
     "value": "demouser"
   },
   "authenticationType": {
-    "value": "password"
+    "value": "sshPublicKey"
   },
   "adminPasswordOrSSHKey": {
-    "value": "demoPassword1!"
+    "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsvQd8Ie4w+cl4irCajWjEnfoa+XQ+c0z7O/ruFEPbOD2Gt4tU9XwoPWVS1ehAziAg8qzKHEZ0gPvSAwIVFqXkxsI3cofl1U7/aU0ELipbc4u/gqj/gDn3WS9Y2w4iGU3/4ifPZYOL5nN9lGS2ixz3Xp7wX22/L8H2RdAKnQYKdS+eWYy/RCTvc1CAXphvEXEDFYp0m0KE9VxBSXNHsvdCI8DyUjQWvNRgKRQowUSAvwZBBH6YlXqQhyPCEDFfcriwTKZ9e56DzulIHjgm35Oucs7Mdx1L0+0/eoZ1CM5TxwfXec1YVGjz+9jgb8GGe+9H06yvFsjAUbJ70dj9UXIDw=="
   },
   "vmSize": {
-    "value": "Standard_DS2_v2"
+    "value": "Standard_D1_v2"
   },
   "virtualNetworkNewOrExisting": {
     "value": "new"
@@ -28,58 +25,40 @@
   },
   "addressPrefixes": {
     "value": [
-      "10.4.0.0/16"
+      "10.9.0.0/16"
     ]
   },
   "subnetName": {
     "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.4.0.0/24"
+    "value": "10.9.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "EAP72-RHEL8-PAYG-soln-RG1"
+    "value": "EAP72-RHEL7-byos-Soln-Test-Rg2"
   },
   "publicIpNewOrExisting": {
     "value": "new"
   },
   "publicIpName": {
-    "value": "jbosseap-server1-payg-rhel8-ip"
+    "value": "jbosseap-rhel77-byos-vm2-ip"
   },
   "publicIpDns": {
-    "value": "jbosseap-server1-payg-rhel8-c4db81dbcc"
+    "value": "jbosseap-rhel77-byos-vm2-d2065be2e8"
   },
   "publicIpResourceGroupName": {
-    "value": "EAP72-RHEL8-PAYG-soln-RG1"
+    "value": "EAP72-RHEL7-byos-Soln-Test-Rg2"
   },
   "publicIPAllocationMethod": {
     "value": "Dynamic"
   },
   "bootDiagnostics": {
-    "value": "On"
-  },
-  "storageNewOrExisting": {
-    "value": "new"
-  },
-  "storageAccountName": {
-    "value": "jbosseapa2fc6c7460"
-  },
-  "storageAccountType": {
-    "value": "Standard_LRS"
+    "value": "Off"
   },
   "jbossEAPUserName": {
     "value": "demouser1"
   },
   "jbossEAPPassword": {
     "value": "demoPassword1!"
-  },
-  "rhsmUserName": {
-    "value": "surajpaispektra"
-  },
-  "rhsmPassword": {
-    "value": "Spektra@123"
-  },
-  "rhsmPoolEAP": {
-    "value": "8a85f99972762fce017299694421706b"
   }
 }
