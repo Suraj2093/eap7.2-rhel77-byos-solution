@@ -435,7 +435,7 @@
                     ]
                 },
                 "protectedSettings": {
-                    "commandToExecute": "[concat('sh eap-adduser.sh',' ',parameters('jbossEAPUserName'),' ',variables('singlequote'),parameters('jbossEAPPassword'),variables('singlequote'))]"
+                    "commandToExecute": "[concat('sh jbosseap-setup-redhat.sh',' ',parameters('jbossEAPUserName'),' ',variables('singlequote'),parameters('jbossEAPPassword'),variables('singlequote'))]"
                 }
             }
         }
