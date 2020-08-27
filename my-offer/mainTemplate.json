@@ -375,9 +375,9 @@
                 "[concat('Microsoft.Network/networkInterfaces/', variables('nicName'))]"
             ],
             "plan": {
-                "name": "eap72-rhel77",
+                "name": "jboss-72-rhel-77-byos",
                 "publisher": "redhat",
-                "product": "eap72-rhel77-byos"
+                "product": "jboss-eap-rhel7"
             },
             "properties": {
                 "hardwareProfile": {
@@ -392,8 +392,8 @@
                 "storageProfile": {
                     "imageReference": {
                         "publisher": "redhat",
-                        "offer": "eap72-rhel77-byos",
-                        "sku": "eap72-rhel77",
+                        "offer": "jboss-eap-rhel7",
+                        "sku": "jboss-72-rhel-77-byos",
                         "version": "latest"
                     },
                     "osDisk": {
