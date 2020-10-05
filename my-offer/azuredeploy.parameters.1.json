@@ -1,9 +1,9 @@
 {
   "location": {
-    "value": "westus2"
+    "value": "eastus"
   },
   "vmName": {
-    "value": "EAP72-RHEL77-BYOS-vm5"
+    "value": "EAP72-RHEL7-byos-VM1"
   },
   "adminUsername": {
     "value": "demouser"
@@ -18,42 +18,39 @@
     "value": "Standard_DS2_v2"
   },
   "virtualNetworkNewOrExisting": {
-    "value": "existing"
+    "value": "new"
   },
   "virtualNetworkName": {
-    "value": "EXT-VNET"
+    "value": "VirtualNetwork"
   },
   "addressPrefixes": {
     "value": [
-      "10.0.0.0/16"
+      "10.8.0.0/16"
     ]
   },
   "subnetName": {
-    "value": "ext-subnet1"
+    "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.0.0.0/24"
+    "value": "10.8.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "Pre-req-env-soln-test-Rg1"
+    "value": "EAP72-RHEL7-byos-Soln-Test-Rg1"
   },
   "publicIpNewOrExisting": {
-    "value": "existing"
+    "value": "new"
   },
   "publicIpName": {
-    "value": "rhel-soln-ext-pip1"
+    "value": "EAP72-RHEL7-byos-VM1-ip"
   },
   "publicIpDns": {
-    "value": "rhel-soln-ext-pip1"
+    "value": "eap72-rhel7-byos-vm1-c4bfb77944"
   },
   "publicIpResourceGroupName": {
-    "value": "Pre-req-env-soln-test-Rg1"
+    "value": "EAP72-RHEL7-byos-Soln-Test-Rg1"
   },
   "publicIPAllocationMethod": {
     "value": "Dynamic"
-  },
-  "publicIpSku": {
-    "value": "Basic"
   },
   "bootDiagnostics": {
     "value": "On"
@@ -62,7 +59,7 @@
     "value": "new"
   },
   "storageAccountName": {
-    "value": "eap72rhel77diagstr"
+    "value": "eap72rhef33163a3b6"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
